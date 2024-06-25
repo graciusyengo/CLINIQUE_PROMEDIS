@@ -1,0 +1,137 @@
+.container {
+    margin-top:143px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ajuster la hauteur en fonction de vos besoins */
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ajuster la largeur en fonction de vos besoins */
+  }
+  .textContainer {
+    position: absolute;
+    top: 200px; /* Ajuster la distance au-dessus du conteneur */
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+  }
+ 
+  .titleContainer {
+    font-size: 2.6rem; /* Taille de police par défaut */
+    color: white;
+  }
+  .desc{
+    font-size: 1.7rem; 
+    width: 1080px;
+    margin-left: 215px;
+
+  }
+  .pdf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5FA599;
+    position: fixed;
+    top:289px;
+    right:0;
+    padding:16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 39px;
+    transition: all 0.3s ease;
+
+  
+  }
+
+  .pdf {
+ 
+    animation: mymove 2s infinite;
+  }
+  
+  @keyframes mymove {
+    from {top: 289px;}
+    to {top: 311px;}
+  }
+  .pdf:hover{
+   background-color: white;
+
+   color:#01405c ;
+   transform: scale(1.05);
+   animation: none;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .textContainer{
+ top: 160px;
+
+    }
+    .titleContainer {
+      font-size: 2rem;
+      
+      /* Taille de police plus grande pour les grands écrans */
+    }
+    .desc{
+      width: 390px;
+      font-size: 1.2rem;
+      margin-left: 190px;
+   
+    }
+    .sidebar{
+      display: none;
+    }
+    .pdf{
+      display: none;
+    }
+    .paragraphe{
+      width: 30px;
+    }
+   
+  }
+
+ 
+
+  
+
+  .image {
+    max-width: 100%;
+ 
+  }
+
+  .blurredImage {
+    filter: blur(1.5px);
+  }
+
+  
+.service{
+  display: flex;
+  justify-content: space-around;
+ 
+  margin-top: 50px;
+  
+}
+.sidebar{
+  flex:1;
+  height: 290px;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-left: 120px;
+  position: sticky;
+top: 164px;
+}
+.presentation{
+  flex: 3;
+}
+.paragraphe{
+  width: 800px;
+}
+
+
+  
+  

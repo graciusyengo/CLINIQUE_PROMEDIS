@@ -1,0 +1,117 @@
+.container{
+    width: 95%;
+    min-height:100vh;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.container h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+
+}
+.container h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  .container h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #5FA599;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  .container .mediaContainer{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+   gap: 15px;
+   margin: 20px auto;
+  }
+  .container .mediaContainer .media{
+    height: 220px;
+    width: 100%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    overflow:hidden ;
+    cursor: pointer;
+  }
+  .container .popupMedia{
+    position: fixed;
+    top:40%;
+    left:0%;
+    right: 30%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  
+    z-index: 55;
+  }
+  .container .popupMedia span{
+    position: absolute;
+
+ right: 5px;
+ top: 0;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor:pointer
+   
+  }
+  .video3{
+    margin-top: 30px;
+    margin-left:29% ;
+   max-width: 56%;
+   max-height: 50%;
+   display: block;
+    
+   
+  }
+  .img3{
+    margin-top: 30px;
+   margin-left:29%;
+   max-width: 56%;
+   max-height: 57%;
+   display: block;
+   border-color: black;
+   border: 3px solid #fff;
+   object-fit: contain;
+
+  }
+
+  .video{
+  
+    width: 100%;
+    height:100%; 
+    object-fit: cover;
+    transition: all 0.3s linear;
+  }
+  .video:hover{
+ transform: scale(1.1);
+  }
+
+  .img{
+    transition: all 0.3s linear;
+
+  }
+  .img:hover{
+    transform: scale(1.1);
+
+  }
+  .link{
+    text-decoration: none;
+    margin: 0;
+  }

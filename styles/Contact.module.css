@@ -1,0 +1,13 @@
+.box{
+    position: relative;
+    height:460px;
+    width:400px;
+    background-color:"#5FA599" !important;
+    overflow: hidden;
+ 
+}
+.text{
+    margin-top: 9px;
+}
+
+
