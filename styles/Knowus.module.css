@@ -2,7 +2,7 @@
     width: 100%;
     height: 50vh;
 
-    background-image:  linear-gradient(rgba(110, 110, 110, 0.4), rgba(90, 90, 90, 0.4)),  url("/assets/img/gallery2.jpg") ;
+    background-image:  linear-gradient(rgba(110, 110, 110, 0.4), rgba(90, 90, 90, 0.4)),  url("/assets/img/gallery2.jpg");
     background-size: contain no-repeat;
     margin-bottom: -200px;
     margin-top: 98px;

@@ -52,15 +52,15 @@ function knowus() {
               <h6 style={{ fontWeight: "600" }}> CLINIQUE PROMEDIS </h6>
             </div>
             <ul style={{ listStyleType: "square" }}>
-              <li>NOS ATOUT</li>
-              <li>OBJECTFS</li>
-              <li>MISSION</li>
-              <li>HORAIRE DE SERVICE</li>
-              <li>CONVENTIONS MEDICALES</li>
-              <li>NOS PARTENAIRES</li>
-              <li>HORAIRE DE SERVICE</li>
-              <li>CONVENTIONS MEDICALES</li>
-              <li>NOS PARTENAIRES</li>
+              <li>Nos atout</li>
+              <li>Objectifs</li>
+              <li>Mission</li>
+              <li>Horaire de service</li>
+              <li>Convention Medicale</li>
+              <li>Nos Partenaires</li>
+              <li>Horaire de service</li>
+           
+             
 
            
             </ul>
@@ -84,7 +84,7 @@ function knowus() {
             </p>
             <p className={styles.paragraphe}>
 
-          Elle initiative de son administrateur  Medecin Directeur, Docteur Nicola NDUKUTE NGANSER et a été inaugurée le 1 er Mais 1995.
+          Elle est l'initiative de son administrateur  Medecin Directeur, Docteur Nicola NDUKUTE NGANSER et a été inaugurée le 1 er Mais 1995.
           </p>
 
           <p className={styles.paragraphe}>
