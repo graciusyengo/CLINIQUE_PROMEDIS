@@ -54,20 +54,16 @@ function knowus() {
             <ul style={{ listStyleType: "square" }}>
               <li>Nos atout</li>
               <li>Objectifs</li>
-              <li>Mission</li>
+          
               <li>Horaire de service</li>
               <li>Convention Medicale</li>
               <li>Nos Partenaires</li>
-              <li>Horaire de service</li>
-           
+         
              
 
            
             </ul>
-            <p className={styles.paragraphe}>
-              LES DIFFÉRENTS TYPES DE CHIRURGIE NOTRE ÉQUIPE CONTACT ACTUALITÉS
-              JE VEUX DONNER AU SERVICE
-            </p>
+        
           </div>
           <div
             className={styles.presentation}
@@ -171,102 +167,123 @@ function knowus() {
             <p className={styles.paragraphe}>  - Des Medecins et Infirmiers ayant fait carriere dans la profession et dans la medecine privée.</p>
             </div>
 
-            <h4
-              style={{ fontSize: "16px", color: "#01405c", fontWeight: "bold" }}
+            <h3
+              style={{ fontSize: "25px", color: "#01405c", fontWeight: "bold" }}
             >
-              Pathologies cancéreuses prises en charge :
-            </h4>
-            <p className={styles.paragraphe}>
-              Le service de chirurgie gynécologique et mammaire fait partie du
-              Centre de Cancérologie de l'Est Parisien, une structure
-              spécialisée dans les cancers digestifs, gynécologiques et
-              urologiques et qui accompagne les patients du dépistage à
-              l'après-cancer.
-            </p>
-
-            <p className={styles.paragraphe}>
-              Cancers pelviens (ovaire, col utérin, endomètre, vulve).
-            </p>
-            <div>
-              <p className={styles.paragraphe}>
-                Cancer du sein (diagnostic, chirurgie simple, chirurgie
-                oncoplastique et chirurgie reconstructrice) pour en savoir plus
-                sur le Centre de Cancérologie de l'Est Parisien,{" "}
-                <Link href="#">cliquez ici</Link>
-              </p>
-            </div>
-
-            <h4
-              style={{ fontSize: "16px", color: "#01405c", fontWeight: "bold" }}
-            >
-              PATHOLOGIES
-            </h4>
-            <p className={styles.paragraphe}>
-              Les consultations en chirurgie gynécologique et mammaire
-              nécessitent très souvent une auscultation des parties intimes du
-              corps. Cliquez ci-dessous pour télécharger notre charte concernant
-              nos pratiques en cas de consultation ou d'examen de la sphère
-              intime :
-            </p>
-            <Link href="#">
               {" "}
-              CHARTE CONSULTATION ET EXAMEN SPHÈRE INTIME_0 (pdf, 232.35 Ko)
-            </Link>
+              OBJECTIFS
+            </h3>
 
-            <h4
-              style={{ fontSize: "16px", color: "#01405c", fontWeight: "bold" }}
+            <p className={styles.paragraphe}>
+              Comme toutes institution à caractere sanitaire, la Cliique Promedis a plusieurs objectifs notammment :
+            </p>
+            <ul>
+                <li className={styles.list}>
+                  - Soigner les malades dans leur ensemble avec toutes les exigences de l'art de guerir.
+                </li>
+                <li className={styles.list}>
+                  - Prendre en charge les malades quelques soient leurs rang social.
+                </li>
+                <li className={styles.list}>- Former et informer les malades sur les risques pouvant engager ceux-ci.</li>
+                <li className={styles.list}>
+                  - Faire la medecines de masse c'est-à-dire suivre les malades là ou ils se trouvent ce qui justifient d'ailleurs le nombre d'extension dans la ville
+                </li>
+            
+              </ul>
+
+
+              <h3
+              style={{ fontSize: "25px", color: "#01405c", fontWeight: "bold" }}
             >
-              URGENCES SEIN
-            </h4>
-
-            <div>
-              une prise en charge dans la journée 01 44 64 43 45
-              cliniquepromedis@gmail.com
-              <p className={styles.paragraphe}>
-                Tous les lundis, une prise en charge diagnostique thérapeutique
-                immédiate et personnalisée.
-              </p>
-            </div>
-            <p className={styles.paragraphe}>
-              L'unité de pathologie mammaire du Groupe Hospitalier a mis en
-              place un circuit rapide pour faciliter la prise en charge des
-              patientes ayant une forte suspicion clinique ou
-              mammo-échographique du cancer du sein.
-            </p>
-            <p className={styles.paragraphe}>
               {" "}
-              Les patientes bénéficient, dans la journée, d'un rendez-vous avec
-              un chirurgien, d'examens radiologiques complémentaires et de
-              biopsies si jugé nécessaires par les radiologues spécialisés dans
-              l'imagerie médicale du sein.
-            </p>
+         HORAIRE DE SERVICE
+            </h3>
 
-            <p className={styles.paragraphe}>
-              Selon les cas, les patientes bénéficient d'un diagnostic
-              cytologique et sont revues, éventuellement, par le chirurgien dans
-              l'après-midi pour l'annonce du résultat et l'organisation de leur
-              prise en charge.
-            </p>
-            <p className={styles.paragraphe}>
-              Elles auront, dans tous les cas, un deuxième rendez-vous dans les
-              7 jours pour l'annonce des résultats histologiques complets.
-            </p>
+          
+            <ul>
+                <li className={styles.list}>
+                  - Consultations génèrales, Laboratoire: 24H/24 
+                </li>
+                <li className={styles.list}>
+                  -  Consultations spécialisées : Selon k'horaire affiché
+                </li>
+                <li className={styles.list}>- Une équipe de garde composée de médecins, infirmiers, laboratins, anesthesistes, chauffeur de garde et agents de sécurité spécialisés </li>
+                <li className={styles.list}>
+                  - Etablissements d'enseignements 
+                </li>
+                <li className={styles.list}>
+                  - Publics et Privés (maternelle, primaire, secondaire, Superieur)
+                </li>
+                <li className={styles.list}>
+                  - Mutualités et Eglises
+                </li>
+                <li className={styles.list}>
+                  - socièté, entreprises, publics et privées
+                </li>
+                <li className={styles.list}>
+                  - Expatriés
+                </li>
+            
+              </ul>
+              <h3
+              style={{ fontSize: "25px", color: "#01405c", fontWeight: "bold" }}
+            >
+              {" "}
+      CONVENTIONS MÉDICALES
+            </h3>
 
-            <p className={styles.paragraphe}>
-              Enfin, les patientes ayant déjà un diagnostic de cancer du sein
-              sont vues par un chirurgien dans les 7 jours et, si nécessaire, la
-              chirurgie est programmée dans les 3 semaines qui suivent.
-            </p>
+          
+            <div>
+              <h5>Facturation</h5>
 
-            <p className={styles.paragraphe}>
-              Pour un RDV de chirurgie du sein (hors urgence sein) : contactez
-              le Centre de Cancérologie de l'Est Parisien par téléphone au 01 44
-              74 28 90 ou par mail ccep@hopital-dcss.org{" "}
-            </p>
+              <h6>Au cas par cas</h6>
+               <p>UNe facture reprenant les soins et services dont le malade a réellement beneficiés au cours du mois</p>
+
+               <h6>Forfaitaire</h6>
+               <p>L'abonné paie un montant mensuel qui englobe un  nombre des prestations préablement négociées</p>
+             
+               <h5>Projet de convention médicale</h5>
+            
+               <p>à la démande</p>
+              </div> 
+
+              <h3
+              style={{ fontSize: "25px", color: "#01405c", fontWeight: "bold" }}
+            >
+              {" "}
+          NOS PARTENAIRES
+            </h3>
+
+          
+            <ul>
+                <li className={styles.list}>
+                  - Patient Privés
+                </li>
+                <li className={styles.list}>
+                  -  Famille et Particuliers
+                </li>
+                <li className={styles.list}>- Membres et Travailleurs  des ONG ET Associations </li>
+                <li className={styles.list}>
+                  - Etablissements d'enseignements 
+                </li>
+                <li className={styles.list}>
+                  - Publics et Privés (maternelle, primaire, secondaire, Superieur)
+                </li>
+                <li className={styles.list}>
+                  - Mutualités et Eglises
+                </li>
+                <li className={styles.list}>
+                  - socièté, entreprises, publics et privées
+                </li>
+                <li className={styles.list}>
+                  - Expatriés
+                </li>
+            
+              </ul>
           </div>
         </div>
       </div>
-      <Gallery />
+      <Gallery/>
     </>
   );
 }
